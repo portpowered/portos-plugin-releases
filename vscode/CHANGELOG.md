@@ -1,5 +1,5 @@
 # Changelog
 
-## 0.1.19
+## 0.1.20
 
-Claude: the manifest now names the privacy policy and no longer carries an icon field. The Claude plugin repository now holds only the Claude package; Codex, ChatGPT and VS Code packages and every release ZIP move to portpowered/portos-plugin-releases.
+Claude: the manifest drops privacyPolicyUrl, which Claude Code does not read; the directory listing keeps its own privacy policy link. Other hosts are unchanged apart from the version.

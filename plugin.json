@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "portos",
-  "version": "0.1.19",
+  "version": "0.1.20",
   "description": "Connect your AI to your existing smart home devices from Philips, Sonos, SmartThings and many others through the Port OS Smart Home plugin.",
   "author": {
     "name": "Mirumiru inc.",
@@ -54,7 +54,7 @@
       },
       "onboardingSkill": "./skills/first-setup/SKILL.md",
       "publication": {
-        "release_notes": "Claude: the manifest now names the privacy policy and no longer carries an icon field. The Claude plugin repository now holds only the Claude package; Codex, ChatGPT and VS Code packages and every release ZIP move to portpowered/portos-plugin-releases.",
+        "release_notes": "Claude: the manifest drops privacyPolicyUrl, which Claude Code does not read; the directory listing keeps its own privacy policy link. Other hosts are unchanged apart from the version.",
         "countries": [
           "US",
           "CA"
