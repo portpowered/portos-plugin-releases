@@ -1,0 +1,14 @@
+{
+  "name": "portos",
+  "description": "Connect Claude to your existing smart home devices from Philips, Sonos, SmartThings and many others through the Port OS Smart Home plugin.",
+  "owner": {
+    "name": "Mirumiru inc."
+  },
+  "plugins": [
+    {
+      "name": "portos",
+      "source": "./",
+      "description": "Connect Claude to your existing smart home devices from Philips, Sonos, SmartThings and many others through the Port OS Smart Home plugin."
+    }
+  ]
+}
